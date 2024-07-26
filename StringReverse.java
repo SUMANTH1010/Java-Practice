@@ -17,6 +17,13 @@ public class StringReverse{
         StringBuffer input2 = new StringBuffer(input);
         input2.reverse();
         System.out.println(input2);
+
+        // Method 3 - Basic approach
+        String input3 = "";
+        for(int i = 0; i < input.length(); i++){
+            input3 = input.charAt(i) + input3;
+        }
+        System.out.println(input3);
         sc.close();
     }
 }
