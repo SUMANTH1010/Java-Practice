@@ -5,6 +5,9 @@ public class IntegerToBinary {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any integer : ");
         int input = sc.nextInt();
+
+        // Integer to Binary Conversion
+
         String binary = "";
         int remainder, quotient = input;
         while(quotient > 0){
